@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magpie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shaazgai Shop</h1>
+        <p>Your one-stop shop for the best products</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <div class="product">
+            <img src="https://www.ikea.com/us/en/images/products/tarva-bed-frame-pine-luroey__0637611_pe698421_s5.jpg?f=s" alt="Product Image">
+            <h3>Bed frame, pine/Luröy, Queen</h3>
+            <p>TARVA bed frame is a modern example of Scandinavian furniture tradition – a simple design and untreated wood. A timeless expression mixes nicely with a variety of other styles and furniture.</p>
+            <p class="price">$149.00</p>
+            <button class="add-to-cart" data-name="Bed Frame" data-price="149.00">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://www.ikea.com/us/en/images/products/hemnes-glass-door-cabinet-with-3-drawers-white-stain-light-brown__0805255_pe769478_s5.jpg?f=s" alt="Product Image">
+            <h3>HEMNES</h3>
+            <p>Glass-door cabinet with 3 drawers, white stain/light brown, 35 3/8x77 1/2 "</p>
+            <p class="price">$379.00</p>
+            <button class="add-to-cart" data-name="HEMNES" data-price="379.00">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://www.ikea.com/us/en/images/products/hauga-2-drawer-chest-white__1250849_pe924031_s5.jpg?f=s" alt="Product Image">
+            <h3>HAUGA</h3>
+            <p>2-drawer chest, white, 19 5/8x18 1/8x26 3/4 "</p>
+            <p class="price">$89.99</p>
+            <button class="add-to-cart" data-name="HAUGA" data-price="89.99">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="total-price">0.00</span></p>
+        <button id="clear-cart">Clear Cart</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Shaazgai. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

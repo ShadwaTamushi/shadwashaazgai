@@ -1,0 +1,34 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contact Container */
+.contact-container {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Header */
+.contact-container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Contact Information */
+.contact-info {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #333;
+}
